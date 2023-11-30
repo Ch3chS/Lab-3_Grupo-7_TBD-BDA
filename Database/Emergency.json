@@ -1,0 +1,202 @@
+[
+    {
+        "id_emergency": 1,
+        "description": "Incendio en el centro de la ciudad",
+        "date": "2023-10-18 00:24:30",
+        "active": true,
+        "id_institution": 1,
+        "location": { "type": "Point", "coordinates": [-70.64827, -33.45694] }
+    },
+    {
+        "id_emergency": 2,
+        "description": "Inundación en la zona norte",
+        "date": "2023-10-17 22:00:00",
+        "active": true,
+        "id_institution": 2,
+        "location": { "type": "Point", "coordinates": [-70.3954, -23.65236] }
+    },
+    {
+        "id_emergency": 3,
+        "description": "Accidente de tráfico en la autopista",
+        "date": "2023-10-17 18:45:00",
+        "active": false,
+        "id_institution": 3,
+        "location": { "type": "Point", "coordinates": [-71.55183, -33.02457] }
+    },
+    {
+        "id_emergency": 4,
+        "description": "Deslizamiento de tierra en el parque",
+        "date": "2023-10-17 16:30:00",
+        "active": false,
+        "id_institution": 4,
+        "location": { "type": "Point", "coordinates": [-71.62963, -33.036] }
+    },
+    {
+        "id_emergency": 5,
+        "description": "Persona perdida en el bosque",
+        "date": "2023-10-17 14:15:00",
+        "active": true,
+        "id_institution": 5,
+        "location": { "type": "Point", "coordinates": [-73.11684, -36.72494] }
+    },
+    {
+        "id_emergency": 6,
+        "description": "Rescate de gato en árbol alto",
+        "date": "2023-10-17 12:00:00",
+        "active": false,
+        "id_institution": 6,
+        "location": { "type": "Point", "coordinates": [-70.6996, -33.59217] }
+    },
+    {
+        "id_emergency": 7,
+        "description": "Derrame de sustancias químicas en fábrica",
+        "date": "2023-10-17 09:45:00",
+        "active": true,
+        "id_institution": 7,
+        "location": { "type": "Point", "coordinates": [-72.59842, -38.73965] }
+    },
+    {
+        "id_emergency": 8,
+        "description": "Apagón en la zona sur de la ciudad",
+        "date": "2023-10-17 07:30:00",
+        "active": false,
+        "id_institution": 8,
+        "location": { "type": "Point", "coordinates": [-70.15077, -20.21326] }
+    },
+    {
+        "id_emergency": 9,
+        "description": "Rescate de montañista lesionado",
+        "date": "2023-10-17 05:15:00",
+        "active": true,
+        "id_institution": 9,
+        "location": { "type": "Point", "coordinates": [-73.04977, -36.82699] }
+    },
+    {
+        "id_emergency": 10,
+        "description": "Evacuación de edificio por amenaza de bomba",
+        "date": "2023-10-17 03:00:00",
+        "active": false,
+        "id_institution": 10,
+        "location": { "type": "Point", "coordinates": [-70.74444, -34.17083] }
+    },
+    {
+        "id_emergency": 11,
+        "description": "Incendio forestal en el parque nacional",
+        "date": "2023-10-17 00:45:00",
+        "active": true,
+        "id_institution": 11,
+        "location": { "type": "Point", "coordinates": [-70.63419, -33.58331] }
+    },
+    {
+        "id_emergency": 12,
+        "description": "Terremoto de magnitud 6.5 en la ciudad",
+        "date": "2023-10-16 22:30:00",
+        "active": false,
+        "id_institution": 12,
+        "location": { "type": "Point", "coordinates": [-71.65542, -35.4264] }
+    },
+    {
+        "id_emergency": 13,
+        "description": "Accidente aéreo cerca del aeropuerto",
+        "date": "2023-10-16 20:15:00",
+        "active": true,
+        "id_institution": 13,
+        "location": { "type": "Point", "coordinates": [-70.29792, -18.4746] }
+    },
+    {
+        "id_emergency": 14,
+        "description": "Derrumbe de edificio en construcción",
+        "date": "2023-10-16 18:00:00",
+        "active": false,
+        "id_institution": 14,
+        "location": { "type": "Point", "coordinates": [-71.33947, -29.95332] }
+    },
+    {
+        "id_emergency": 15,
+        "description": "Fuga de gas en edificio residencial",
+        "date": "2023-10-16 15:45:00",
+        "active": true,
+        "id_institution": 15,
+        "location": { "type": "Point", "coordinates": [-72.94237, -41.4693] }
+    },
+    {
+        "id_emergency": 16,
+        "description": "Naufragio de barco pesquero",
+        "date": "2023-10-16 13:30:00",
+        "active": false,
+        "id_institution": 16,
+        "location": { "type": "Point", "coordinates": [-71.24894, -29.90453] }
+    },
+    {
+        "id_emergency": 17,
+        "description": "Avalancha en pista de esquí",
+        "date": "2023-10-16 11:15:00",
+        "active": true,
+        "id_institution": 17,
+        "location": { "type": "Point", "coordinates": [-72.10344, -36.60664] }
+    },
+    {
+        "id_emergency": 18,
+        "description": "Ataque de abejas en escuela primaria",
+        "date": "2023-10-16 09:00:00",
+        "active": false,
+        "id_institution": 18,
+        "location": { "type": "Point", "coordinates": [-71.37333, -33.04222] }
+    },
+    {
+        "id_emergency": 19,
+        "description": "Rescate de perro atrapado en alcantarilla",
+        "date": "2023-10-16 06:45:00",
+        "active": true,
+        "id_institution": 19,
+        "location": { "type": "Point", "coordinates": [-68.92371, -22.45667] }
+    },
+    {
+        "id_emergency": 20,
+        "description": "Explosión en planta de gas natural",
+        "date": "2023-10-16 04:30:00",
+        "active": false,
+        "id_institution": 20,
+        "location": { "type": "Point", "coordinates": [-70.64827, -33.45694] }
+    },
+    {
+        "id_emergency": 21,
+        "description": "Tornado avistado al oeste de la ciudad",
+        "date": "2023-10-16 02:15:00",
+        "active": true,
+        "id_institution": 1,
+        "location": { "type": "Point", "coordinates": [-70.64827, -33.45694] }
+    },
+    {
+        "id_emergency": 22,
+        "description": "Incendio en restaurante del centro",
+        "date": "2023-10-16 01:15:00",
+        "active": false,
+        "id_institution": 15,
+        "location": { "type": "Point", "coordinates": [-70.64827, -33.45694] }
+    },
+    {
+        "id_emergency": 23,
+        "description": "Inundación por ruptura de presa",
+        "date": "2023-10-16 01:05:00",
+        "active": true,
+        "id_institution": 12,
+        "location": { "type": "Point", "coordinates": [-70.64827, -33.45694] }
+    },
+    {
+        "id_emergency": 24,
+        "description": "Derrame de petróleo en el puerto",
+        "date": "2023-10-16 01:01:30",
+        "active": false,
+        "id_institution": 20,
+        "location": { "type": "Point", "coordinates": [-70.64827, -33.45694] }
+    },
+    {
+        "id_emergency": 25,
+        "description": "Rescate de excursionistas perdidos",
+        "date": "2023-10-16 01:01:01",
+        "active": true,
+        "id_institution": 1,
+        "location": { "type": "Point", "coordinates": [-70.64827, -33.45694] }
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "id_task": 1,
+        "name": "Evacuación del área",
+        "description": "Coordinar la evacuación segura de todas las personas en el área afectada.",
+        "active": true,
+        "id_task_status": 1,
+        "id_emergency": 1
+    },
+    {
+        "id_task": 2,
+        "name": "Establecer perímetro de seguridad",
+        "description": "Establecer un perímetro de seguridad alrededor del área afectada para evitar más daños.",
+        "active": true,
+        "id_task_status": 2,
+        "id_emergency": 2
+    },
+    {
+        "id_task": 3,
+        "name": "Búsqueda y rescate",
+        "description": "Buscar y rescatar a cualquier persona atrapada o herida en el área afectada.",
+        "active": false,
+        "id_task_status": 3,
+        "id_emergency": 3
+    },
+    {
+        "id_task": 4,
+        "name": "Evaluación de daños",
+        "description": "Evaluar la extensión de los daños causados por la emergencia.",
+        "active": false,
+        "id_task_status": 1,
+        "id_emergency": 4
+    },
+    {
+        "id_task": 5,
+        "name": "Coordinación con servicios médicos",
+        "description": "Coordinar con los servicios médicos para atender a las personas heridas.",
+        "active": true,
+        "id_task_status": 2,
+        "id_emergency": 5
+    },
+    {
+        "id_task": 6,
+        "name": "Restauración de servicios básicos",
+        "description": "Trabajar con las autoridades pertinentes para restaurar los servicios básicos en el área afectada.",
+        "active": false,
+        "id_task_status": 3,
+        "id_emergency": 6
+    },
+    {
+        "id_task": 7,
+        "name": "Control de tráfico",
+        "description": "Controlar el tráfico para permitir el paso de vehículos de emergencia.",
+        "active": true,
+        "id_task_status": 1,
+        "id_emergency": 7
+    },
+    {
+        "id_task": 8,
+        "name": "Distribución de suministros",
+        "description": "Distribuir suministros esenciales a las personas afectadas.",
+        "active": false,
+        "id_task_status": 2,
+        "id_emergency": 8
+    },
+    {
+        "id_task": 9,
+        "name": "Reparación de infraestructuras",
+        "description": "Reparar las infraestructuras dañadas por la emergencia.",
+        "active": true,
+        "id_task_status": 3,
+        "id_emergency": 9
+    },
+    {
+        "id_task": 10,
+        "name": "Descontaminación del área",
+        "description": "Descontaminar el área afectada por la emergencia.",
+        "active": false,
+        "id_task_status": 1,
+        "id_emergency": 10
+    },
+    {
+        "id_task": 11,
+        "name": "Reconstrucción del área",
+        "description": "Coordinar los esfuerzos de reconstrucción en el área afectada.",
+        "active": true,
+        "id_task_status": 2,
+        "id_emergency": 11
+    },
+    {
+        "id_task": 12,
+        "name": "Asistencia psicológica",
+        "description": "Proporcionar asistencia psicológica a las personas afectadas por la emergencia.",
+        "active": false,
+        "id_task_status": 3,
+        "id_emergency": 12
+    },
+    {
+        "id_task": 13,
+        "name": "Investigación de la causa",
+        "description": "Investigar la causa de la emergencia.",
+        "active": true,
+        "id_task_status": 1,
+        "id_emergency": 13
+    },
+    {
+        "id_task": 14,
+        "name": "Educación a la comunidad",
+        "description": "Educar a la comunidad sobre cómo responder a futuras emergencias.",
+        "active": false,
+        "id_task_status": 2,
+        "id_emergency": 14
+    },
+    {
+        "id_task": 15,
+        "name": "Preparación para futuras emergencias",
+        "description": "Prepararse para futuras emergencias similares.",
+        "active": true,
+        "id_task_status": 3,
+        "id_emergency": 15
+    },
+    {
+        "id_task": 16,
+        "name": "Coordinación con medios de comunicación",
+        "description": "Coordinar con los medios de comunicación para informar al público sobre la situación.",
+        "active": false,
+        "id_task_status": 1,
+        "id_emergency": 16
+    },
+    {
+        "id_task": 17,
+        "name": "Recuperación de objetos perdidos",
+        "description": "Recuperar y devolver objetos perdidos durante la emergencia.",
+        "active": true,
+        "id_task_status": 2,
+        "id_emergency": 17
+    },
+    {
+        "id_task": 18,
+        "name": "Reubicación temporal de personas",
+        "description": "Reubicar temporalmente a las personas desplazadas por la emergencia.",
+        "active": false,
+        "id_task_status": 3,
+        "id_emergency": 18
+    },
+    {
+        "id_task": 19,
+        "name": "Control de plagas y enfermedades",
+        "description": "Controlar cualquier plaga o enfermedad que pueda surgir debido a la emergencia.",
+        "active": true,
+        "id_task_status": 1,
+        "id_emergency": 19
+    },
+    {
+        "id_task": 20,
+        "name": "Protección del medio ambiente",
+        "description": "Tomar medidas para proteger el medio ambiente durante la respuesta a la emergencia.",
+        "active": false,
+        "id_task_status": 2,
+        "id_emergency": 20
+    },
+    {
+        "id_task": 21,
+        "name": "Recogida y eliminación de escombros",
+        "description": "Recoger y eliminar los escombros generados por la emergencia.",
+        "active": true,
+        "id_task_status": 3,
+        "id_emergency": 21
+    },
+    {
+        "id_task": 22,
+        "name": "Restauración del suministro eléctrico",
+        "description": "Restaurar el suministro eléctrico en el área afectada.",
+        "active": false,
+        "id_task_status": 1,
+        "id_emergency": 22
+    },
+    {
+        "id_task": 23,
+        "name": "Restauración del suministro de agua",
+        "description": "Restaurar el suministro de agua en el área afectada.",
+        "active": true,
+        "id_task_status": 2,
+        "id_emergency": 23
+    },
+    {
+        "id_task": 24,
+        "name": "Restauración del servicio de telecomunicaciones",
+        "description": "Restaurar el servicio de telecomunicaciones en el área afectada.",
+        "active": false,
+        "id_task_status": 3,
+        "id_emergency": 24
+    },
+    {
+        "id_task": 25,
+        "name": "Apoyo logístico",
+        "description": "Proporcionar apoyo logístico para las operaciones de respuesta a la emergencia.",
+        "active": true,
+        "id_task_status": 1,
+        "id_emergency": 25
+    },
+    {
+        "id_task": 26,
+        "name": "Apoyo financiero",
+        "description": "Proporcionar apoyo financiero para las operaciones de respuesta a la emergencia.",
+        "active": false,
+        "id_task_status": 2,
+        "id_emergency": 1
+    },
+    {
+        "id_task": 27,
+        "name": "Apoyo legal",
+        "description": "Proporcionar apoyo legal para las operaciones de respuesta a la emergencia.",
+        "active": true,
+        "id_task_status": 3,
+        "id_emergency": 2
+    },
+    {
+        "id_task": 28,
+        "name": "Apoyo administrativo",
+        "description": "Proporcionar apoyo administrativo para las operaciones de respuesta a la emergencia.",
+        "active": false,
+        "id_task_status": 1,
+        "id_emergency": 3
+    },
+    {
+        "id_task": 29,
+        "name": "Apoyo técnico",
+        "description": "Proporcionar apoyo técnico para las operaciones de respuesta a la emergencia.",
+        "active": true,
+        "id_task_status": 2,
+        "id_emergency": 4
+    },
+    {
+        "id_task": 30,
+        "name": "Apoyo operativo",
+        "description": "Proporcionar apoyo operativo para las operaciones de respuesta a la emergencia.",
+        "active": false,
+        "id_task_status": 3,
+        "id_emergency": 5
+    }
+]
