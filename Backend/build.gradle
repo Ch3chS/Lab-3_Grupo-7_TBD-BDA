@@ -27,7 +27,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	
-	compile group: 'org.mongodb', name: 'mongo-java-driver', version: '3.12.7'
+	//compile group: 'org.mongodb', name: 'mongo-java-driver', version: '3.12.7'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'

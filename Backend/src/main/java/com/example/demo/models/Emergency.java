@@ -1,6 +1,5 @@
 package com.example.demo.models;
 
-import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.geo.GeoJsonPoint;
@@ -16,12 +15,19 @@ public class Emergency {
     // ----------------------------------------- Atributos --------------------------------------------------
 
     /**
-     * Columna con la id de la emergencia, la cual se genera automáticamente de forma creciente.
+     * Columna con la id de la emergencia, la cual se genera automáticamente.
      * Es única para cada emergencia
      * No puede ser nula
      */
     @Id
-    private ObjectId _id;
+    private int _id;
+
+    /**
+     * Una id alternativa, para hacer su uso como llave foranea en el modelo Task
+     * Es única para cada emergencia
+     * No puede ser nula
+     */
+    private int id_emergency;
 
     /**
      * Columna con la descripción detallada de la emergencia.
@@ -46,12 +52,21 @@ public class Emergency {
     // ----------------------------------------- Métodos -----------------------------------------------------
 
     /**
-     * Método que permite obtener la id de una emergencia
-     * @return id de la emergencia (un valor de tipo Long)
+     * Método que permite obtener la _id de una emergencia usada en la BD
+     * @return id de la emergencia (un valor de tipo int)
      */
-    public ObjectId getId() {
+    public int get_Id() {
         return this._id;
     }
+
+    /**
+     * Método que permite obtener la id de una emergencia
+     * @return id de la emergencia (un valor de tipo int)
+     */
+    public int getId() {
+        return this.id_emergency;
+    }
+
 
     /**
      * Método que permite obtener la descripción de una emergencia

@@ -1,6 +1,5 @@
 package com.example.demo.services;
 
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -46,7 +45,7 @@ public class EmergencyService {
      * @param id id de la entidad
      * @return entidad con la id respectiva (o null en caso de no encontrarse)
      */
-    public Optional<Emergency> getById(ObjectId id) {
+    public Optional<Emergency> getById(Integer id) {
         return repo.findById(id);
     }
 
@@ -55,8 +54,7 @@ public class EmergencyService {
      * Corresponde al Delete del CRUD
      * @param id id de la entidad
      */
-    public void deleteEmergency(ObjectId id) {
+    public void deleteEmergency(Integer id) {
         repo.deleteById(id);
     }
 }
-

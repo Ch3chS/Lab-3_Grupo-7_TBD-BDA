@@ -1,6 +1,5 @@
 package com.example.demo.controllers;
 
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -31,14 +30,14 @@ public class EmergencyController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Emergency> getById(@PathVariable ObjectId id) {
+    public ResponseEntity<Emergency> getById(@PathVariable Integer id) {
         Emergency emergency = service.getById(id)
                 .orElseThrow(() -> new RuntimeException("Emergency not found"));
         return new ResponseEntity<>(emergency, HttpStatus.OK);
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> delete(@PathVariable ObjectId id) {
+    public ResponseEntity<Void> delete(@PathVariable Integer id) {
         service.deleteEmergency(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
