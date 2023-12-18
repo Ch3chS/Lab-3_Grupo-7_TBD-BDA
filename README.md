@@ -1,8 +1,6 @@
 # Lab-3_Grupo-7_TBD-BDA
 Este repositorio contiene todos los archivos relacionados con el laboratorio 3 del ramo de Taller de base de datos o base de datos avanzada.
 
-* **IMPORTANTE: Para poder conectarse correctamente a la Base de Datos, se debe utilizar el usuario "postgres" y la contraseña "postgres"**
-
 ## Acerca del proyecto
 
 ### Colaboradores
@@ -11,24 +9,25 @@ Este repositorio contiene todos los archivos relacionados con el laboratorio 3 d
 * [Cristóbal Olivares](https://github.com/ToTozudo)
 
 ### Descripción
-El proyecto consiste en desarrollar un sistema para la gestión del voluntariado espontáneo con Api Restful cuya interfaz sea realizada en Vue.js y Backend en Spring Boot y, a diferencia de la vez anterior, se hará uso de MongoDB.<br>
+El proyecto consiste en desarrollar un sistema para la gestión del voluntariado espontáneo con Api Restful cuya interfaz sea realizada en Vue.js y Backend en Spring Boot y, a diferencia de la vez anterior, se hará uso de MongoDB para 
+la base de datos.<br>
 
 ### Tareas a realizar
 - [x] Entender el problema
-- [ ] Investigar tecnologías a usar
-- [ ] Dividir el trabajo
-- [ ] Realizar el diseño 
-  - [ ] Diseñar base de datos
-  - [ ] Diseñar Back-end
-  - [ ] Diseñar Front-End
-- [ ] Realizar construcción de base de datos, Back-End y Front-end
-- [ ] Realizar ppt para la presentación
-- [ ] Preparar entrega
-- [ ] Pulir README.md
-- [ ] Entregar y presentar
+- [x] Investigar tecnologías a usar
+- [x] Dividir el trabajo
+- [x] Realizar el diseño 
+  - [x] Diseñar base de datos
+  - [x] Diseñar Back-end
+  - [x] Diseñar Front-End
+- [x] Realizar construcción de base de datos, Back-End y Front-end
+- [x] Realizar ppt para la presentación
+- [x] Preparar entrega
+- [x] Pulir README.md
+- [x] Entregar y presentar
 
 ### Organización carpetas
-Lab-2_Grupo-7_TBD-BDA (Carpeta contenedora) ->
+Lab-3_Grupo-7_TBD-BDA (Carpeta contenedora) ->
 - [Backend](Backend) (Carpeta de Codigo funte con Controladores, lógica de negocios, modelos, y conexiones a BD)
 - [Database](Database) (Carpeta con los archivos de creacion y poblado de la BD. junto con sentencias de Prueba)
 - [frontend](frontend) (Carpeta con las vistas, componente, html, css, y js necesarios para UX)
