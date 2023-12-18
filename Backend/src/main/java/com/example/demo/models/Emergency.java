@@ -11,9 +11,7 @@ import org.springframework.data.mongodb.core.geo.GeoJsonPoint;
  */
 @Document(collection = "emergencies")
 public class Emergency {
-
     // ----------------------------------------- Atributos --------------------------------------------------
-
     /**
      * Columna con la id de la emergencia, la cual se genera automáticamente.
      * Es única para cada emergencia
@@ -21,26 +19,22 @@ public class Emergency {
      */
     @Id
     private int _id;
-
     /**
      * Una id alternativa, para hacer su uso como llave foranea en el modelo Task
      * Es única para cada emergencia
      * No puede ser nula
      */
     private int id_emergency;
-
     /**
      * Columna con la descripción detallada de la emergencia.
      * No puede ser nula
      */
     private String description;
-
     /**
      * Columna que dice si la emergencia sigue activa, 1 para activa 0 para inactiva.
      * No puede ser nula
      */
     private Boolean active;
-
     /**
      * Columna con la ubicación de la emergencia.
      * Actualización postGIS (lab 2)

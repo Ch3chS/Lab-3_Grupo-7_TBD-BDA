@@ -11,9 +11,7 @@ import org.springframework.data.annotation.Id;
  */
 @Document(collection = "tasks")
 public class Task {
-
     // ----------------------------------------- Atributos --------------------------------------------------
-
     /**
      * Columna con la id de la tarea, la cual se genera automáticamente de forma creciente.
      * Es única para cada tarea
@@ -21,25 +19,21 @@ public class Task {
      */
     @Id
     private ObjectId _id;
-
     /**
      * Columna con el nombre de la tarea.
      * No puede ser nula
      */
     private String name;
-
     /**
      * Columna con la descripción detallada de la tarea.
      * No puede ser nula
      */
     private String description;
-
     /**
      * Columna que dice si la tarea sigue activa, 1 para activa 0 para inactiva.
      * No puede ser nula
      */
     private Boolean active;
-
     /**
      * Columna con la id de la emergencia asociada a la tarea.
      * No puede ser nula
@@ -57,7 +51,6 @@ public class Task {
     public ObjectId getIdTask() {
         return this._id;
     }
-
     /**
      * Método que permite obtener el nombre de una tarea
      * @return nombre de la tarea (un valor de tipo String)
@@ -65,7 +58,6 @@ public class Task {
     public String getName() {
         return name;
     }
-
     /**
      * Método que permite actualizar el nombre de una tarea
      * @param name nuevo nombre para la tarea (de tipo String)
